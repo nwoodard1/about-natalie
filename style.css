@@ -12,6 +12,7 @@ h1 {
 
 body {
     background-color: teal;
+    background: linear-gradient(red, orange);
 }
 
 div {
@@ -23,4 +24,19 @@ div {
     font-size: 25px;
     font-family: sans-serif;
     font-style: italic;
+}
+
+img {
+    height: 10rem;
+    width: auto;
+    transform: rotateZ(20deg);
+    filter: grayscale(.9);
+}
+
+ul {
+    transform: rotateZ(-22deg);
+}
+
+h1 {
+    transform: skewY(9deg);
 }
